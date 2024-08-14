@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+#container{
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+#watch{
+    height: 50vh;
+    width: 100vw;
+}
+
+#watch video{
+    width: 50%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+#watch div{
+    display: inline-block;
+    color: #FFF;
+    background-color: #041C39;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    font-size: 3.5vw;
+    padding: 0 1rem 1rem 1rem;
+    overflow: hidden;
+}
+
+#of{
+    text-align: center;
+}
+
+#thrones{
+    text-align: end;
+}
+
+#movie{
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    text-align: center;
+    background-color: #FFF;
+    padding: 0.5rem 0;
+}

@@ -1,0 +1,34 @@
+<% layout("/layouts/boilerplate") %>
+<body>
+    <main>
+        <div id="hero">
+            <div id="title"><h1>Money</h1> <span>Heist</span><p>The BlockBuster</p></div>
+            <video src="Money-Heist-(2017)-Trailer.mp4" controls muted loop></video>
+        </div>
+
+        <div class="first_row row">
+            <a  href="" class="catogary">Popular&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+            <div class="allCards">
+                <% for(trailer of trailers) {%>
+                <a href="<%= trailer.trailer %>" class="card">
+                    <video src="<%= trailer.trailer %>" controls></video>
+                    <p><%= trailer.movieName %></p>
+                </a>
+                <%}%>
+            </div>
+        </div>
+
+        <div class="second_row row">
+            <a  href="" class="catogary">Web Series&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+            <div class="allCards">
+                <% for(trailer of trailers) {%>
+                <a href="<%= trailer.trailer %>" class="card">
+                    <video src="<%= trailer.trailer %>" controls></video>
+                    <p><%= trailer.movieName %></p>
+                </a>
+                <%}%>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

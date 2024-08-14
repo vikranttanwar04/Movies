@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+footer{
+    max-width: 100vw;
+    margin-top: 10vh;
+    background-color: #000;
+    /* position: fixed; */
+    bottom: 0;
+}
+
+#elems{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    position: relative;
+}
+
+.inner-rows{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.inner-rows a{
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.top{
+    color: #0EC5BA;
+}
+
+.icons{
+    font-size: 2vw;
+}
